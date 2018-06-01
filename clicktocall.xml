@@ -11,11 +11,25 @@
 	<license> http://www.gnu.org/licenses/gpl-3.0.html</license>
 	<authorEmail>fernandoboalvarez@gmail.com</authorEmail>
 	<authorUrl>http://feboal.com</authorUrl>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>Plugin that replace a string
 	</description>
 	<files>
 		<filename plugin="clicktocall">clicktocall.php</filename>
 		<filename>index.html</filename>
 	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<fieldname ="phoneDigits1" type="text"
+					default="4"
+					label="Digits 1"
+					description="How many digits in the first part of the phone number?" />
+				<fieldname ="phoneDigits2" type="text"
+					default="4"
+					label="Digits 2"
+					description="How many digits in the first part of the phone number?" />
+				</fieldset>
+			</fields>
+	</config>
 </extension>
