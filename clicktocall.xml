@@ -21,15 +21,17 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<fieldname ="phoneDigits1" type="text"
+				<field name="phoneDigits1" type="text"
 					default="4"
 					label="Digits 1"
-					description="How many digits in the first part of the phone number?" />
-				<fieldname ="phoneDigits2" type="text"
+					description="How many digits in the first part of the phone number?"
+				/>
+				<field name="phoneDigits2" type="text"
 					default="4"
 					label="Digits 2"
-					description="How many digits in the first part of the phone number?" />
+					description="How many digits in the second part of the phone number?"
+				/>
 				</fieldset>
-			</fields>
+		</fields>
 	</config>
 </extension>
