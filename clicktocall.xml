@@ -24,12 +24,12 @@
 				<field name="phoneDigits1" type="text"
 					default="4"
 					label="Digits 1"
-					description="How many digits in the first part of the phone number?"
+					description="Cuantos digitos tiene la primera parte del número?"
 				/>
 				<field name="phoneDigits2" type="text"
 					default="4"
 					label="Digits 2"
-					description="How many digits in the second part of the phone number?"
+					description="Cuantos ditigos tiene la segunda parte del núemro?"
 				/>
 				</fieldset>
 		</fields>
