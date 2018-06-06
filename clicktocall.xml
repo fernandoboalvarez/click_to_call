@@ -11,25 +11,28 @@
 	<license> http://www.gnu.org/licenses/gpl-3.0.html</license>
 	<authorEmail>fernandoboalvarez@gmail.com</authorEmail>
 	<authorUrl>http://feboal.com</authorUrl>
-	<version>1.1.0</version>
+	<version>1.2.0</version>
 	<description>Plugin that replace a string
 	</description>
 	<files>
 		<filename plugin="clicktocall">clicktocall.php</filename>
 		<filename>index.html</filename>
 	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_clicktocall.ini</language>
+	</languages>	
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
 				<field name="phoneDigits1" type="text"
 					default="4"
-					label="Digits 1"
-					description="Cuantos digitos tiene la primera parte del número?"
+					label="PLG_CONTENT_CLICKTOCALL_FIELD_PHONEDIGITS1_LABEL"
+					description="PLG_CONTENT_CLICKTOCALL_FIELD_PHONEDIGITS1_DESC"
 				/>
 				<field name="phoneDigits2" type="text"
 					default="4"
-					label="Digits 2"
-					description="Cuantos ditigos tiene la segunda parte del núemro?"
+					label="PLG_CONTENT_CLICKTOCALL_FIELD_PHONEDIGITS2_LABEL"
+					description="PLG_CONTENT_CLICKTOCALL_FIELD_PHONEDIGITS2_DESC"
 				/>
 				<field name="phoneDigits3" type="text"
 					default="4"
