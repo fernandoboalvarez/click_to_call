@@ -36,6 +36,11 @@
 					label="Digits 3"
 					description="Cuantos ditigos tiene la tercera parte del núemro?"
 				/>
+				<field name="phoneDigits5" type="text"
+					default="4"
+					label="Digits 5"
+					description="Cuantos ditigos tiene la tercera parte del núemro?"
+				/>
 				</fieldset>
 		</fields>
 	</config>
