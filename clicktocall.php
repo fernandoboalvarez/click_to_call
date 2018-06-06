@@ -38,3 +38,4 @@ class plgContentClicktocall extends JPlugin
         return true;
 	}
 }
+/*Final*/
